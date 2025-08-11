@@ -196,6 +196,11 @@ body {
     padding: 0 2rem;
 }
 
+/* Hero content padding fix */
+.hero-content {
+    padding: 0 1rem;
+}
+
 /* Section Titles */
 .section-title {
     font-family: var(--font-primary);
@@ -535,6 +540,31 @@ body {
     font-size: 0.9rem;
     line-height: 1.6;
     color: var(--text-primary);
+}
+
+/* JSON Syntax Highlighting */
+.code-content .json-key {
+    color: #79c0ff; /* Blue for keys */
+}
+
+.code-content .json-string {
+    color: #a5d6ff; /* Light blue for string values */
+}
+
+.code-content .json-number {
+    color: #79c0ff; /* Blue for numbers */
+}
+
+.code-content .json-array {
+    color: #f97583; /* Red/pink for arrays */
+}
+
+.code-content .json-bracket {
+    color: var(--accent-primary); /* Green for brackets */
+}
+
+.code-content .json-colon {
+    color: var(--text-secondary); /* Gray for colons and commas */
 }
 
 .about-stats {
@@ -919,6 +949,10 @@ body {
     
     .container {
         padding: 0 1rem;
+    }
+    
+    .hero-content {
+        padding: 0 0.5rem;
     }
     
     .section-title {
